@@ -16,19 +16,19 @@ I gave it 4GB of RAM and 30GB (pre-allocated) HDD.
 ## Installing Proxmox
 
 Grabbed Proxmox VE 4.4 ISO Installer from here: https://www.proxmox.com/en/downloads  
-Mount the ISO and start the machine
+Mount the ISO and start the machine  
 Follow the instructions. When asked for a hostname, it is necessary to provide a fully qualified domain name so I put "proxmox.local".
 
 ## Testing the install
 
-Ensure you can login as Root
-Ensure PuTTY can connect
-Test internet by pinging google `ping www.google.com -c 3`
+Ensure you can login as Root  
+Ensure PuTTY can connect  
+Test internet by pinging google `ping www.google.com -c 3`  
 Update the software `apt-get update`
 
 ## Creating Containers
 
-First you have to have some templates installed. Go to Datacenter>proxmox>local hard drive. Select Content > Templates. Download a template OS. 
+First you have to have some templates installed. Go to Datacenter>proxmox>local hard drive. Select Content > Templates. Download a template OS.  
 
 Create the container.
 
