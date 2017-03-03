@@ -7,7 +7,7 @@ I tested and had was able to run Proxmox VE 4.4 inside VirtualBox 5.1 and VMWare
 
 I had major issues with networking, machine could not get an IP so no internet access. This is required if you want to download templates for machines. I found that this was related to the OS I chose when initially creating the machine i.e. even before getting to the part of installing the actual OS. 
 
-VirtualBox: Other/Unknown(64-bit)
+VirtualBox: Other/Unknown(64-bit)  
 VMWare Workstation: esxi 5  
 
 Network adapter was set to Bridged (non replicating) on both, so Proxmox machine would get its own IP.
